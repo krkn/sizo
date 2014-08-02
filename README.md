@@ -10,4 +10,25 @@
 
 * * *
 
+**sizo** is a set of CSS components, highly inspired by bootstrap, bourbon bitters & refills, foundation, and many more…
+
+## Installation
+
 _(Coming soon)_
+
+## Usage 
+
+_(Coming soon)_
+
+## Contributing
+
+_(Coming soon)_
+
+## Release History
+
+- **2014-08-02:** starting project
+
+## License
+
+Copyright (c) 2014 [krkn](http://krkn.be)  
+Licensed under the MIT license.

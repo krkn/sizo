@@ -1,8 +1,9 @@
 // Sizo
 
-// By default, only import kouto-swiss, core vars & sizo mixins.
+// kouto swiss must be imported before sizo, so we check the existence of kouto-swiss global variable
+if( ks-imported isnt yes )
+    @import "kouto-swiss"
+
+// By default, only core vars & sizo mixins.
 // Since all components of sizo are outputing css code, users would choose to import what they wants
-
-@import "kouto-swiss"
-
 @import "vars"

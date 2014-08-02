@@ -77,3 +77,115 @@ cite {
 cite:before {
   content: "\2014 \00A0";
 }
+fieldset {
+  margin: 0 0 0.75em 0;
+  padding: 1.5em;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+}
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+label {
+  margin-bottom: 1.5em/4;
+  font-weight: bold;
+}
+label.required:after {
+  content: "*";
+}
+label abbr {
+  display: none;
+}
+textarea,
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="time"],
+input[type="week"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1.5em/2;
+  padding: 0.5em 0.5em;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  -webkit-transition: border-color;
+  transition: border-color;
+}
+textarea:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover,
+input[type="search"]:hover,
+input[type="tel"]:hover,
+input[type="text"]:hover,
+input[type="url"]:hover,
+input[type="color"]:hover,
+input[type="date"]:hover,
+input[type="datetime"]:hover,
+input[type="datetime-local"]:hover,
+input[type="month"]:hover,
+input[type="time"]:hover,
+input[type="week"]:hover {
+  border-color: #c4c4c4;
+}
+textarea:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus {
+  border-color: #477dca;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.06), 0 0 5px rgba(55,112,192,0.7);
+  outline: none;
+}
+textarea {
+  resize: vertical;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 1.5em/4;
+}
+input[type="file"] {
+  width: 100%;
+  padding-bottom: 1.5em/2;
+}
+select {
+  width: auto;
+  max-width: 100%;
+  margin-bottom: $base-spacing;
+}
+

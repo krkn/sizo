@@ -1,0 +1,79 @@
+body {
+  background-color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 2.25em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.25em;
+}
+h6 {
+  font-size: 1em;
+}
+p {
+  margin: 0 0 0.75em;
+}
+a {
+  color: #477dca;
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+}
+a:hover {
+  color: #2c5999;
+}
+a:active,
+a:focus {
+  color: #2c5999;
+  outline: none;
+}
+hr {
+  margin: 1.5em 0;
+  border-bottom: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+img,
+picture {
+  max-width: 100%;
+  margin: 0;
+}
+blockquote {
+  margin: 1.5em 0;
+  padding-left: 1.5em/2;
+  border-left: 2px solid #ddd;
+  color: #595959;
+}
+cite {
+  font-style: italic;
+  color: #737373;
+}
+cite:before {
+  content: "\2014 \00A0";
+}

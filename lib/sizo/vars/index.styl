@@ -1,3 +1,67 @@
-// Global vars
+// Sizo Vars
 
-sz-foo = bar
+// Fonts
+sz-sans-serif = font-stack( "Helvetica" )
+sz-serif = font-stack( "Georgia" )
+sz-base-font-family = sz-sans-serif
+sz-header-font-family = sz-base-font-family
+
+// Font Sizes
+sz-base-font-size = 1em
+sz-h1-font-size = sz-base-font-size * 2.25
+sz-h2-font-size = sz-base-font-size * 2
+sz-h3-font-size = sz-base-font-size * 1.75
+sz-h4-font-size = sz-base-font-size * 1.5
+sz-h5-font-size = sz-base-font-size * 1.25
+sz-h6-font-size = sz-base-font-size
+
+// Line height
+sz-base-line-height = 1.5
+sz-header-line-height = 1.25
+
+// Other Sizes
+sz-base-border-radius = 3px
+sz-base-spacing = sz-base-line-height * 1em
+sz-base-z-index = 0
+
+// Colors
+sz-blue = #477DCA
+sz-dark-gray = #333
+sz-medium-gray = #999
+sz-light-gray = #DDD
+sz-light-red = #FBE3E4
+sz-light-yellow = #FFF6BF
+sz-light-green = #E6EFC2
+
+// Background Color
+sz-base-background-color = white
+
+// Font Colors
+sz-base-font-color = sz-dark-gray
+sz-base-accent-color = sz-blue
+
+// Link Colors
+sz-base-link-color = sz-base-accent-color
+sz-hover-link-color = darken( sz-base-accent-color, 15 )
+sz-base-button-color = sz-base-link-color
+sz-hover-button-color = sz-hover-link-color
+
+// Flash Colors
+sz-alert-color = sz-light-yellow
+sz-error-color = sz-light-red
+sz-notice-color = lighten( sz-base-accent-color, 40 )
+sz-success-color = sz-light-green
+
+// Border color
+sz-base-border-color = sz-light-gray
+sz-base-border = 1px solid sz-base-border-color
+
+// Forms
+sz-form-border-color = sz-base-border-color
+sz-form-border-color-hover = darken( sz-base-border-color, 10 )
+sz-form-border-color-focus = sz-base-accent-color
+sz-form-border-radius = sz-base-border-radius
+sz-form-box-shadow = inset 0 1px 3px rgba( black, .06 )
+sz-form-box-shadow-focus = sz-form-box-shadow, 0 0 5px rgba( darken( sz-form-border-color-focus, 5 ), 0.7 )
+sz-form-font-size = sz-base-font-size
+sz-form-font-family = sz-base-font-family

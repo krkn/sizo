@@ -1,0 +1,81 @@
+// Sizo Typography
+
+body
+    background-color sz-base-background-color
+    font-family sz-base-font-family
+    font-size sz-base-font-size
+    -webkit-font-smoothing antialiased
+    color sz-base-font-color
+    line-height sz-base-line-height
+
+h1
+h2
+h3
+h4
+h5
+h6
+    margin 0
+    font-family sz-header-font-family
+    line-height sz-header-line-height
+    text-rendering optimizeLegibility
+
+h1
+    font-size sz-h1-font-size
+
+h2
+    font-size sz-h2-font-size
+
+h3
+    font-size sz-h3-font-size
+
+h4
+    font-size sz-h4-font-size
+
+h5
+    font-size sz-h5-font-size
+
+h6
+    font-size sz-h6-font-size
+
+p
+    margin 0 0 ( sz-base-spacing / 2 )
+
+
+a
+    color sz-base-link-color
+    text-decoration none
+    transition color 0.1s linear
+
+    &:hover
+        color sz-hover-link-color
+
+    &:active
+    &:focus
+        color sz-hover-link-color
+        outline none
+
+hr
+    margin sz-base-spacing 0
+    border-bottom sz-base-border
+    border-left none
+    border-right none
+    border-top none
+
+img
+picture
+    max-width 100%
+    margin 0
+
+blockquote
+    margin sz-base-spacing 0
+    padding-left sz-base-spacing / 2
+    border-left 2px solid sz-base-border-color
+    color lighten( sz-base-font-color, 15 )
+
+
+cite
+    font-style italic
+    color lighten( sz-base-font-color, 25 )
+
+    &:before
+        content "\2014 \00A0"

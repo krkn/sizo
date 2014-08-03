@@ -1,0 +1,36 @@
+button,
+input[type="submit"] {
+  display: inline-block;
+  padding: 0.75em 1em;
+  background-color: #477dca;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+}
+button:hover,
+input[type="submit"]:hover {
+  background-color: #2c5999;
+  color: #fff;
+}
+button:disabled,
+input[type="submit"]:disabled {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+button,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
